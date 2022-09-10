@@ -23,3 +23,11 @@
     - 缩小类型范围 （typeof === !== instanceof in）
     - () => void 函数类型
     - this推导
+
+2. 环境搭建
+    - webpack搭建环境
+        - webpack webpack-cli webpack-dev-serve(热更新) html-webpack-pulign(模板) ts-loader typescript
+
+    - ts-node工具库可以直接编译ts代码，并直接在node环境中运行
+
+    - 全局安装的typescript命令，可以直接通过tsc直接编译对应的ts文件，生成同名的js文件
