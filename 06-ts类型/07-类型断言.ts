@@ -1,12 +1,12 @@
 // as 类型断
-// 类型断言，将广阔的概念转换成具体的概念
+// 类型断言，将广阔的概念转换成具体的概念（断言之后，就相当于，把这个东西就当成了这种类型）
 // <img id='cj'>
 
 // 报错
 // const el:HTMLElement | null = document.getElementById('cj');
 // el.src = 'test';
 
-const el = document.getElementById('cj') as HTMLImageElement; // 将html对象断言成具体的img对象
+const el = document.getElementById('cj') as HTMLImageElement; // 将html对象断言成具体的img对象（将你获取到的元素当成了img类型的元素，即使你获取到的不是img类型的元素，也会被当成img类型的元素）
 el.src = 'cj';
 
 
