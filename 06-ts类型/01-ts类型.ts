@@ -32,5 +32,4 @@ message2 = result; // unknow类型可以赋值给any类型
 
 console.log(result, message2, 'unknow')
 
-
 export {}
