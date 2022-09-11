@@ -7,7 +7,7 @@ class Person {
         this.age = age;
     }
 
-    eating() {
+    eating() {  
         console.log('eating....');
     }
 }
